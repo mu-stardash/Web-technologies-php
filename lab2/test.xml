@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<test>
+
+<question id="1">
+<name>первый вопрос с маленькой буквы</name>
+<answer id="1">Первый    ответ на вопрос 1    тут пробелы   </answer>
+<answer id="2">второй ответ на вопрос 1 с маленькой   буквы </answer>
+<answer id="3">Третий ответ на вопрос > 1</answer>
+</question>
+
+
+<question id="2">
+<name>Второй вопрос</name>
+<answer id="1">    &quot;Первый&quot; ответ на вопрос 2 с пробелами      </answer>
+<answer id="2">  HTML сущности <![CDATA[<div> <p> my para </p> </div> ]]></answer>
+<answer id="3">tретий ответ на вопрос 2 </answer>
+<answer id="4"> &amp;4 ответ на    &#60;    вопрос 2</answer>
+</question>
+</test>
