@@ -1,11 +1,20 @@
 #!/usr/bin/php
 <?php
 
+error_reporting(E_ALL & ~E_NOTICE);
 /**
  * genlognames.php - генератор данных для регистрации одного пользователя 
  *
  * Copyright (c) 2022, Efimova Darya 22405 <dashulya0301178@gmail.com>
 */
+
+if (empty($user_rname = $argv[1])) {
+	echo "Введите свою фамилию:";
+	$user_rname = readline();
+} else {
+	$user_rname = $argv[1]; # исходное имя 
+}   
+ 
 
 $user_rname = $argv[1];    # исходное имя 
 $user_lname = "";        # имя латиницей
